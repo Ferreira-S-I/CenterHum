@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;600;700;800;900&display=swap);
+* {
+  font-family: "Exo", sans-serif;
+  font-weight: 200 !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
