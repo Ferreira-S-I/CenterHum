@@ -1,3 +1,6 @@
+body {
+    background: #222830;
+}
 .box {
     width: 350px;
     max-width: 600px;
@@ -14,18 +17,19 @@
 .box h1 {
     color: #fff;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500!important;
     margin-bottom: 30px;
 }
 
 .box h2 {
     color: #fff;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 800!important;
     margin-bottom: 30px;
 }
 
 .box input[type="email"],
+.box input[type="text"],
 .box input[type="password"] {
     border: 0;
     background: none;
@@ -42,6 +46,7 @@
 }
 
 .box input[type="email"]:focus,
+.box input[type="text"]:focus,
 .box input[type="password"]:focus {
     width: 280px;
     border-color: #f39c12;

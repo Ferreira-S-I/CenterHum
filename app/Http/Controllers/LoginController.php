@@ -64,7 +64,7 @@ class LoginController extends Controller
             //Server settings
             $mail->SMTPDebug = 0;                                       // Enable verbose debug output
             $mail->isSMTP();                                            // Set mailer to use SMTP
-            $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+            $mail->Host       = '';                                     // Specify main and backup SMTP servers
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
             $mail->Username   = '';                                     // SMTP username
             $mail->Password   = '';                                     // SMTP password
@@ -88,6 +88,5 @@ class LoginController extends Controller
         }
 
         return redirect()->route('reset.password')->with('status', 'Erro ao enviar e-mail');
-
     }
 }

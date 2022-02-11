@@ -18,4 +18,5 @@ mix
 .scripts('node_modules/owl.carousel/dist/owl.carousel.min.js', 'public/Assets/js/owl.carousel.min.js')
 .sass('resources/scss/bootstrap.scss', 'public/Assets/css/bootstrap.css')
 .sass('resources/scss/main.scss', 'public/Assets/css/main.css')
+.sass('resources/scss/icons.scss', 'public/Assets/css/icons-bootstrap.css')
 .css('node_modules/owl.carousel/dist/assets/owl.carousel.min.css', 'public/Assets/css/owl.carousel.min.css')

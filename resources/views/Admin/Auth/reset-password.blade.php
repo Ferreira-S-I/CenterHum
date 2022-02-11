@@ -35,6 +35,7 @@
             <a href="{{ route('login') }}" class="text-center nav-link m-0 text-light">Voltar</a>
         </form>
     </div>
+</div>
 @endsection
 
 @section('script')

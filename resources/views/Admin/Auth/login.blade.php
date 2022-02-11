@@ -27,7 +27,6 @@
             <input type="submit" value="Login">
             <a href="{{ route('reset.password') }}" class="text-center nav-link m-0 text-light">Esqueceu a senha?</a>
         </form>
-
     </div>
 </div>
 @endsection
